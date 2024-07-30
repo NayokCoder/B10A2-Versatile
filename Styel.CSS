@@ -117,3 +117,34 @@
   top: 580px;
   left: 758px;
 }
+
+/* SECTION-2 Part */
+
+.sec-child-1 h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  line-height: 5.3rem;
+  text-align: center;
+}
+.sec-child-1 p {
+  color: white;
+  text-align: center;
+}
+.sec-child-2 {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+
+.child-box {
+  width: 230px;
+  height: 274px;
+  justify-items: center;
+  border: 1px solid red;
+}
+.box-img {
+  display: flex;
+  justify-content: center;
+  /* border-radius: 50%; */
+}
