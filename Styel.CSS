@@ -167,16 +167,20 @@
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
 }
-
+/* SECTION-3 Part */
 .section-3 {
-  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  height: 370px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 1.1rem;
   margin-top: 6rem;
+  overflow: hidden;
 }
 .sec-3-txt {
   width: 41%;
+  margin: 40px 0 40px 54px;
 }
 .sec-3-txt h1 {
   color: white;
@@ -192,4 +196,62 @@
 .run-img {
   width: 31%;
   height: 310px;
+  background-position: cover;
+  margin: 30px 32px 30px 0;
+  border-radius: 1.1rem;
+  /* border: 2px solid red; */
+  overflow: hidden;
+  position: relative;
+  background-position: cover;
+}
+.run-img img {
+  transform: scale(1);
+  object-position: ;
+}
+/* SECTION-4 Part */
+.section-4 {
+  margin-top: 100px;
+}
+.section-4 > div {
+  width: 63.2%;
+}
+.section-4 > div > h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.section-4 > div > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+.six-img {
+  width: 100%;
+  height: 400px;
+  margin-top: 58px;
+  border: 1px solid red;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.six-img img {
+  height: 200px;
+}
+.i1 {
+  width: 23.58%;
+}
+.i2 {
+  width: 49.05%;
+}
+.i3 {
+  width: 27.35%;
+}
+.i4 {
+  width: 40.09%;
+}
+.i5 {
+  width: 27.35%;
+}
+.i6 {
+  width: 32.54%;
 }
