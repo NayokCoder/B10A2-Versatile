@@ -204,15 +204,18 @@
   position: relative;
   background-position: cover;
 }
+
 .run-img img {
   transform: scale(1);
-  object-position: ;
+  object-fit: none;
+  object-position: 65% 28%;
 }
+
 /* SECTION-4 Part */
 .section-4 {
   margin-top: 100px;
 }
-.section-4 > div {
+.Trainings-txt {
   width: 63.2%;
 }
 .section-4 > div > h1 {
@@ -232,26 +235,51 @@
   border: 1px solid red;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 23.58%), 49.05%, 27.38%; */
+  grid-template-columns: 23.58% 49.05% 27.38%;
+  grid-template-columns: 40.09% 27.35% 32.54%;
 }
 .six-img img {
   height: 200px;
 }
+/* }
 .i1 {
-  width: 23.58%;
+  border: 1px solid red;
+  overflow: hidden;
 }
 .i2 {
-  width: 49.05%;
+  border: 1px solid red;
 }
 .i3 {
-  width: 27.35%;
+  border: 1px solid red;
 }
 .i4 {
   width: 40.09%;
+  border: 1px solid red;
 }
 .i5 {
   width: 27.35%;
+  border: 1px solid red;
 }
 .i6 {
   width: 32.54%;
+  border: 1px solid red;
+} */
+
+/* article part  */
+.art {
+  width: 46.52%;
+  height: 120px;
+  margin: auto;
+  margin-top: 88px;
+}
+.art h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.art p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  margin-top: 14px;
 }
