@@ -17,7 +17,6 @@ body {
 
 .wtext {
   color: white;
-  margin: 1.8rem 0;
 }
 
 .grdient {
@@ -29,4 +28,8 @@ body {
     rgba(119, 119, 119, 0.2) 70%,
     rgba(17, 17, 17, 0)
   );
+}
+.gtext {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
 }
