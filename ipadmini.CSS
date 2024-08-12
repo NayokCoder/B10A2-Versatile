@@ -1,0 +1,40 @@
+@media screen and (max-width: 744px) {
+  .grdient {
+    border: 1px solid red;
+    height: 1400px;
+    background: linear-gradient(
+      360deg,
+      rgba(17, 17, 17, 0),
+      rgba(119, 119, 119, 0.2) 70%,
+      rgba(17, 17, 17, 0)
+    );
+  }
+
+  .section-1 {
+    width: 92.06;
+    border: 1px solid red;
+  }
+  .head-intro {
+    display: block;
+    /* justify-content: space-between; */
+  }
+  .text-box {
+    position: relative;
+  }
+  .box-1 {
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    top: 260px;
+    right: 140px;
+  }
+  .box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 342px;
+
+    left: 150px;
+  }
+}
