@@ -46,6 +46,10 @@
   font-size: 1rem;
   font-weight: 600;
 }
+.head-intro {
+  display: flex;
+  justify-content: space-between;
+}
 .text-box {
   width: 49.05%;
   margin-top: 6rem;
@@ -80,10 +84,6 @@
   font-size: 18px;
   font-weight: 600;
 }
-.head-intro {
-  display: flex;
-  justify-content: space-between;
-}
 
 .red-cricle {
   display: flex;
@@ -97,28 +97,31 @@
   border: none;
 }
 .box {
-  width: 14.24%;
+  width: 53.24%;
   height: 98px;
-
   color: white;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 12px;
 }
+.pos-box {
+  border: 1px solid red;
+  position: relative;
+}
 .box-1 {
   text-align: center;
   align-content: center;
   position: absolute;
-  top: 260px;
-  right: 140px;
+  top: 125px;
+  right: -50px;
 }
 .box-2 {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 580px;
-  left: 758px;
+  right: 265px;
+  bottom: 55px;
 }
 
 /* SECTION-2 Part */
