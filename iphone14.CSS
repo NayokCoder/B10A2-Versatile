@@ -1,0 +1,33 @@
+@media screen and (max-width: 393px) {
+  .list-item {
+    display: none;
+  }
+  .nav-container {
+    width: 89.82%;
+  }
+  .head-intro {
+    width: 89.82%;
+    display: block;
+    justify-content: space-between;
+  }
+  .text-box {
+    width: 89.82%;
+    margin-top: 51px;
+  }
+  .text-box h1 {
+    width: 86.93%;
+    font-size: 36px;
+    line-height: 2.4rem;
+  }
+  #shape {
+    font-size: 72px;
+  }
+  .btn-main {
+    display: flex;
+  }
+  .pos-box {
+    width: 89.82%;
+    margin: auto;
+    margin-top: 48px;
+  }
+}
