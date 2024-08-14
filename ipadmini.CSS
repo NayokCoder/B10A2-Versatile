@@ -43,6 +43,7 @@
     margin-top: 1rem;
   }
   .section-3 {
+    margin-top: 80px;
     height: 420px;
   }
   .run-img {
@@ -76,6 +77,11 @@
     height: 450px;
     margin-left: 3.19%;
   }
+  /* .artical-2 */
+  .team-img {
+    padding: 15px;
+  }
+
   .artical-2 h1 {
     margin-top: 70px;
   }

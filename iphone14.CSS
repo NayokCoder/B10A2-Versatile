@@ -1,7 +1,4 @@
 @media screen and (max-width: 393px) {
-  /* .section-1 {
-    width: 100%;
-  } */
   .grdient {
     height: 1000px;
   }
@@ -10,9 +7,17 @@
   }
   .nav-container {
     width: 89.82%;
+    margin: auto;
+  }
+  .bars {
+    display: block;
+    align-content: center;
+  }
+  .section-1 {
+    width: 100%;
+    margin: 0;
   }
   .head-intro {
-    width: 89.82%;
     display: block;
     justify-content: space-between;
   }
@@ -29,7 +34,9 @@
     font-size: 72px;
   }
   .btn-main {
+    width: 100%;
     display: flex;
+    gap: 10px;
   }
   .pos-box {
     width: 89.82%;
@@ -37,15 +44,17 @@
     margin-top: 48px;
   }
   .box-2 {
+    width: 44%;
     top: 270px;
     left: 12px;
   }
   .box-1 {
+    width: 42%;
     top: 48px;
-    right: -45px;
+    right: 12px;
   }
   .section-2 {
-    width: 89.82%;
+    width: 100%;
     height: 1400px;
   }
   .sec-child-1 h1 {
@@ -53,6 +62,11 @@
     font-size: 32px;
     margin: 0;
   }
+  .sec-child-1 p {
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+
   .sec-child-1 {
     width: 100%;
   }
@@ -83,7 +97,9 @@
     border-radius: 15px;
   }
   .section-4 {
+    width: 89.82%;
     height: 675px;
+    margin: auto;
   }
   .six-img {
     margin-top: 36px;
@@ -166,8 +182,13 @@
     position: absolute;
   }
   /* footer part */
+  .footer-container {
+    height: 1100px;
+  }
   .second-container {
+    width: 89.2%;
     display: block;
+    margin: auto;
   }
 
   .fitness {
