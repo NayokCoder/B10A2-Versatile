@@ -142,9 +142,45 @@
     padding-top: 0px;
     margin-top: 40px;
   }
+  .artical-2 h1 {
+    font-size: 32px;
+  }
+  .art-para {
+    width: 84.2%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1px;
+  }
   .team-img {
-    /* display: inline;/ */
-    height: 604px;
-    gap: 20px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .Bell {
+    display: none;
+    position: absolute;
+  }
+  .Russell {
+    display: none;
+    position: absolute;
+  }
+  /* footer part */
+  .second-container {
+    display: block;
+  }
+
+  .fitness {
+    width: 80.67%;
+  }
+  .fitness > p {
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+
+  .get-strt {
+    flex-direction: column;
+    margin-top: 30px;
   }
 }
